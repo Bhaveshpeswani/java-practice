@@ -1,6 +1,6 @@
 public class Switch {
     public static void main(String[] args) {
-        int day = 3;
+        int day = 8;
 
     switch(day){
         case 1:
@@ -23,6 +23,9 @@ public class Switch {
             break;
         case 7:
             System.out.println("Sunday");
+            break;
+        default:
+            System.out.println("it's your birthday let's party!");
             break;
     }
 }
